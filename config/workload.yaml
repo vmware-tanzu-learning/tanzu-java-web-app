@@ -10,9 +10,3 @@ spec:
   - name: annotations
     value:
       autoscaling.knative.dev/minScale: "1"
-  source:
-    git:
-      ref:
-        branch: main
-      url: https://github.com/vmware-tanzu/application-accelerator-samples.git
-    subPath: tanzu-java-web-app
